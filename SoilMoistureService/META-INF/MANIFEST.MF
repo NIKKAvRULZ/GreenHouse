@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SoilMoistureService
+Bundle-SymbolicName: SoilMoistureService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: soilmoistureservice.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-23
+Automatic-Module-Name: SoilMoistureService
+Import-Package: org.osgi.framework;version="1.3.0"
+Export-Package: interfaces
+Bundle-ActivationPolicy: lazy

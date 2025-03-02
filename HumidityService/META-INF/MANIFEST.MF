@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HumidityService
+Bundle-SymbolicName: HumidityService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: humidityservice.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-23
+Automatic-Module-Name: HumidityService
+Import-Package: org.osgi.framework;version="1.3.0"
+Export-Package: interfaces
+Bundle-ActivationPolicy: lazy
